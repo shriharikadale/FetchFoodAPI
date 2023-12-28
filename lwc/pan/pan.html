@@ -1,0 +1,16 @@
+<template>
+    <lightning-card title="Spoonaculer Data">
+       <div class="slds-m-around_medium">
+        <lightning-button label={Click} variant='brand' onclick={handleclick}></lightning-button>
+       </div>
+       
+
+        <template if:true={isviviable}>
+            <div class="slds-m-around_medium">
+                <p> Test : {Display}</p>
+            </div>
+        </template>
+       
+      
+    </lightning-card>
+</template>
